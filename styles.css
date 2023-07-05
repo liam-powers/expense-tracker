@@ -1,0 +1,52 @@
+
+.background {
+    background: rgba(66, 245, 90, 0.15);
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    font-family: Verdana;
+
+}
+
+.wrapper > h1 {
+    /* I like green. */
+    color: seagreen;
+}
+
+.wrapper > div {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    gap: 50px;
+}
+
+.row1 {
+    padding-bottom: 30px;
+}
+
+.row1 span {
+    width: 200px;
+    padding: 15px 0;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.row {
+    padding-bottom: 5px;
+}
+
+.buttons {
+    position: absolute;
+    top: 700px;
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+}
